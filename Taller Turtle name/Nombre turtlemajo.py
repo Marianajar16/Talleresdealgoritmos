@@ -68,3 +68,11 @@ tortuguita.forward(90)
 tortuguita.left(90)
 tortuguita.forward(90)
 d=tortuguita.pos()
+
+#flor
+medida = 8  
+pen = turtle.Turtle()  
+for i in range(medida * 2):
+    pen.forward(i * 7) 
+    pen.right(90)    
+tortuguita.exitonclick()
